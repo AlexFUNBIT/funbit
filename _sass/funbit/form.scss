@@ -1,0 +1,17 @@
+input[type="text"], input[type="tel"], input[type="email"], textarea {font-size: 1em;background:#f9f9f9;width: 100%;height: 3em;line-height: 3em;padding: 0 1em;box-sizing: border-box;margin-bottom: 1em;-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 2px;border: 1px solid #ddd;outline: 0;}
+input[type="checkbox"]{z-index:-1;opacity:0}
+textarea {height: 230px;padding: 1em 2em;line-height: 1.3em;}
+#datepicker{width:320px;box-sizing:border-box}
+table.date {width: 100%;}
+table.date td {cursor:pointer}
+table.date td:not([align="center"]):hover {background:#efefef}
+button.button {border: 1px solid #ccc;border-radius: 2px;outline: 0;height: 3em;padding: .5em 2em;box-sizing: border-box;vertical-align: middle;-webkit-appearance: none;}
+select#ddMonth, select#ddYear {border: 1px solid #ccc;border-radius: 2px;-webkit-appearance: none;padding: .3em 1em;width: 80px;margin: 10px;height: 30px;cursor: pointer;}
+input#DOB {max-width: 200px;display: block;cursor:pointer}
+.container-checkbox {margin-top:2em;margin-bottom: 4em;padding-left:25px;cursor:pointer}
+.indicator{background:#f9f9f9;border:1px solid #ddd;left:0;top:3px;z-index:1;}
+.container-checkbox input:checked ~ .indicator,
+.container-checkbox input:checked:focus ~ .indicator {background:#009e55;border-color:#009e55}
+.indicator:after{content:'';position:absolute;display:none}
+.indicator:after{left:7px;top:2px;width:3px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.container-checkbox input:checked ~ .indicator:after{display:block}
