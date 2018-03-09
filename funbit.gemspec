@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alex@funbit.no"]
 
   spec.summary       = "Barebone start for theme FUNBIT"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/AlexFUNBIT/funbit"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
