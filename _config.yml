@@ -51,6 +51,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-coffeescript
 
 exclude:
   - Gemfile
