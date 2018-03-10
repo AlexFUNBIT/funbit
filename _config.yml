@@ -2,7 +2,7 @@ title: Your awesome title
 author: GitHub User
 email: your-email@domain.com
 
-baseurl: "/AlexFUNBIT/funbit" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 description: > # this means to ignore newlines until "twitter_username:"
@@ -45,6 +45,8 @@ funbit:
 # Build settings
 markdown: kramdown
 theme: funbit
+
+sass_dir: _sass
 
 sass:
     style: compressed
