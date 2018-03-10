@@ -1,6 +1,10 @@
 title: Your awesome title
 author: GitHub User
 email: your-email@domain.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://rottmann.no" # the base hostname & protocol for your site, e.g. http://example.com
+
 description: > # this means to ignore newlines until "twitter_username:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -41,6 +45,9 @@ funbit:
 # Build settings
 markdown: kramdown
 theme: funbit
+
+sass:
+    style: compressed
 
 plugins:
   - jekyll-seo-tag
