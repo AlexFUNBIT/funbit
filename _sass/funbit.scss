@@ -1,10 +1,11 @@
 @charset "utf-8";
-$primary: #2b2b2b !default;
-$secondary: #de5d40 !default;
-$dark: #333 !default;
-$light: #2b2b2b !default;
-$white: #2b2b2b !default;
-$family: 'Poppins',sans-serif !default;
+
+$primary:      #2b2b2b !default;
+$secondary:    #de5d40 !default;
+$dark:         #333333 !default;
+$light:        #2b2b2b !default;
+$white:        #2b2b2b !default;
+$family:       'Poppins', sans-serif !default;
 
 @import
   "funbit/base",
