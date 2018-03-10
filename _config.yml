@@ -41,6 +41,10 @@ minima:
 # Build settings
 markdown: kramdown
 theme: funbit
+
+plugins:
+  - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock
